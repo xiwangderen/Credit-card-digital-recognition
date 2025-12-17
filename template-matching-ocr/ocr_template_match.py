@@ -198,5 +198,4 @@ for (i, (gX, gY, gW, gH)) in enumerate(locs):
 # 打印结果
 print("Credit Card Type: {}".format(FIRST_NUMBER[output[0]]))
 print("Credit Card #: {}".format("".join(output)))
-cv2.imshow("Result_Image", image)
-cv2.waitKey(0)
+cv_show("Result_Image", image)
